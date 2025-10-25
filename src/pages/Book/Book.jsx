@@ -9,6 +9,8 @@ const Book = ({ singleBook }) => {
     console.log(singleBook);
     const {bookId, bookName, image, rating, category, tags, yearOfPublishing, publisher } = singleBook;
 
+   
+
     return (
         <Link to={`/bookDetails/${bookId}`}>
             <div className="card bg-base-100 shadow-sm border border-gray-100 p-5">
@@ -41,3 +43,6 @@ const Book = ({ singleBook }) => {
 };
 
 export default Book;
+
+
+// baki ache: modul - 45.9 and 45.10
